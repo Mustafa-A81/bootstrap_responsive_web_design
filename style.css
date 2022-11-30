@@ -1,0 +1,38 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.dark-linear {
+	background: linear-gradient(-45deg, #000 90%, rgba(248,249,250,1) 10%);
+	
+}
+
+.success-linear{
+	background: rgb(63,63,251);
+	background: radial-gradient(circle, rgba(63,63,251,1) 0%, rgba(70,252,85,1) 100%);
+
+}
+.green-linear{
+	background: rgb(13,45,7);
+	background: linear-gradient(252deg, rgba(13,45,7,1) 0%, rgba(6,87,15,1) 0%, rgba(12,161,30,1) 23%, rgba(45,231,66,1) 70%);
+}
+
+.light-linear{
+	background: linear-gradient(-45deg, rgba(248,249,250,1) 94%, #000  6%);
+}
+
+#yukari-cik {
+	height: 40px;
+	width: 40px;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	text-indent:-9999px;
+	z-index:9999;
+	display:none;
+	background: url("image/gotop.png");
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	}
